@@ -1,9 +1,12 @@
  <html>
         <head>
-            <title>Ola's blog</title>
+            <title>my blog</title>
         </head>
         <body>
             <p>Hi there!</p>
+	    {% for post in posts %}
+                {{ post }}
+            {% endfor %}
             <p>It works!</p>
         </body>
  </html>
